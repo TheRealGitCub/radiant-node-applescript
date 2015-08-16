@@ -1,23 +1,23 @@
 {
-  "name": "spotify-node-applescript",
+  "name": "radiant-node-applescript",
   "version": "0.2.2",
-  "description": "Control Spotify on Mac OSX with NodeJS and AppleScript.",
+  "description": "Control Radiant Plater on Mac OSX with NodeJS and AppleScript.",
   "keywords": [
-    "spotify",
+    "radiant",
     "node",
     "applescript",
     "mac",
     "osx"
   ],
-  "author": "André Haveman <andre.haveman@gmail.com>",
+  "author": "Kobi Tate <kobi@kobitate.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/andrehaveman/spotify-node-applescript.git"
+    "url": "git://github.com/therealgitcub/radiant-node-applescript.git"
   },
   "engines": {
     "node": ">=0.6.0"
   },
-  "main": "./lib/spotify-node-applescript.js",
+  "main": "./lib/radiant-node-applescript.js",
   "dependencies": {
     "applescript": "1.0.0"
   },

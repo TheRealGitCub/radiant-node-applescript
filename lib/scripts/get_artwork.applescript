@@ -11,11 +11,11 @@ on file_exists(filePath)
   tell application "Finder" to return exists filePath as POSIX file
 end file_exists
 
-tell application "Spotify"
-  set currentArtwork to current track's artwork
-  set savePath to POSIX path of (path to temporary items from user domain as string) & my replace_chars(current track's id,":","_")
-  set tiffPath to (savePath & ".tiff")
-  set pngPath to (savePath & ".png")
+tell application "Radiant Player"
+	set currentArtwork to current song art
+	set savePath to POSIX path of (path to temporary items from user domain as string) & current song album & " - " & current song artist
+	set tiffPath to (savePath & ".tiff")
+	set pngPath to (savePath & ".png")
 end tell
 
 -- don't do the image events dance when the file already exists
